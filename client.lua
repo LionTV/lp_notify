@@ -6,7 +6,6 @@ RegisterNUICallback("main", function(data)
 end)
 
 RegisterNUICallback("error", function(data)
-    Nachricht('Error!')
     SetDisplay(false)
 end)
 
