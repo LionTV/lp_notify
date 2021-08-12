@@ -1,13 +1,5 @@
-ESX = nil
 local display = false
 local id = 0
-
-Citizen.CreateThread(function()
-	while ESX == nil do
-		TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
-		Citizen.Wait(0)
-	end
-end)
 
 RegisterNUICallback("main", function(data)
     SetDisplay(true)
