@@ -1,10 +1,6 @@
 local display = false
 local id = 0
 
-RegisterNUICallback("main", function(data)
-    SetDisplay(true)
-end)
-
 RegisterNUICallback("error", function(data)
     SetDisplay(false)
 end)
