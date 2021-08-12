@@ -9,6 +9,3 @@ Example (client side):
 
 Ingame (other title and message):
 
-![20210812033152_1](https://user-images.githubusercontent.com/81768885/129124853-b29dbef6-533c-4a6d-b3b3-e234f7b12dfb.jpg)
-
-
