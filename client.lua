@@ -26,7 +26,7 @@ RegisterNetEvent('lp_notify')
 AddEventHandler('lp_notify', function(title, message, seconds)
     SendNUIMessage({
         type = "ui",
-		title = title,
+	title = title,
         message = message,
         seconds = seconds,
     })
